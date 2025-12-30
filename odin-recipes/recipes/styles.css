@@ -1,0 +1,87 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  line-height: 2;
+}
+hr {
+  border: 0px;
+  height: 2px;
+  background: rgb(12, 31, 44);
+  width: 50%;
+  margin: 0 auto;
+}
+h1,
+h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+h1 {
+  color: darkslategrey;
+}
+h2 {
+  background-color: #fafad2;
+  font-size: 3rem;
+  padding: 1rem 3rem;
+  border: 2px inset #a0522d;
+  margin: 2rem auto;
+  width: fit-content;
+  border-radius: 3.5rem;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+a {
+  color: rgb(25, 25, 112);
+  text-decoration: none;
+}
+.home-link {
+  text-align: center;
+}
+
+a:hover,
+a:visited {
+  color: grey;
+  text-decoration: underline solid lightslategray;
+}
+p,
+ul,
+ol {
+  line-height: 2;
+  font-size: 1.5rem;
+  border: 2px ridge #fffacd;
+  border-radius: 3rem;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+p {
+  width: 70%;
+  margin: 1rem auto;
+}
+ul,
+ol {
+  list-style-type: none;
+  border-radius: 4rem;
+}
+ul,
+ol {
+  width: fit-content;
+  max-width: 60%;
+  margin: 2px auto;
+}
+li strong {
+  font-size: 2.5rem;
+}

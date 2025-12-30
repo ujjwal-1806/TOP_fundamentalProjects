@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  line-height: 2;
+}
+hr {
+  border: 0px;
+  height: 2px;
+  background: rgb(12, 31, 44);
+  width: 30%;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: darkslategrey;
+}
+ul {
+  max-width: 35rem;
+  margin: 5vh auto;
+  list-style-type: none;
+}
+.recipes li {
+  border: 2px rgb(250, 160, 114) inset;
+  font-size: 2rem;
+  text-align: center;
+  background-color: lemonchiffon;
+  border-radius: 7rem;
+  padding: 8rem 0;
+  margin-bottom: 1.2rem;
+}
+a {
+  color: rgb(25, 25, 112);
+
+  text-decoration: none;
+}
+a:hover,
+a:visited {
+  color: grey;
+  text-decoration: underline solid lightslategray;
+}

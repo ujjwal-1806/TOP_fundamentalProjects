@@ -75,11 +75,8 @@ ul,
 ol {
   list-style-type: none;
   border-radius: 4rem;
-}
-ul,
-ol {
   width: fit-content;
-  max-width: 60%;
+  max-width: 75rem;
   margin: 2px auto;
 }
 li strong {
